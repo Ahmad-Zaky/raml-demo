@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required": true,
+    "properties": {
+        "albumId": {
+            "type": "string",
+            "required": true,
+            "minLength": 36,
+            "maxLength": 36
+        }
+        "albumName": {
+            "type": "string",
+            "required": true
+        },
+        "artistId": {
+            "type": "string",
+            "required": true,
+            "minLength": 36,
+            "maxLength": 36
+        }
+    }
+}
